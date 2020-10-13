@@ -4,11 +4,11 @@ This repository is a tutorial for beginners, who would like to use aiXcoder quic
 
 This tutorial can be divided into three parts:
 
-- [What is aiXcoder?](###what-is-aixcoder?)
-- [How download it?](###how-download-it?)
-- [Usage examples](###usage-examples)
+- [What is aiXcoder?](#what-is-aixcoder?)
+- [How download it?](#how-download-it?)
+- [Usage examples](#usage-examples)
 - General questions (FAQ)
-- [Uninstalling aiXcoder](###uninstalling-aixcoder)
+- [Uninstalling aiXcoder](#uninstalling-aixcoder)
 
 ### What is aiXcoder?
 
