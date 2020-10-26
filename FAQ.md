@@ -8,9 +8,9 @@
 
 #### What programming languages does aiXcoder 2.0 support? Which IDEs are supported?
 
-Currently, aiXcoder 2.0 supports Java. Supports for other languages, such as Python, JavaScript, TypeScript, C/C++, PHP and Go, will be gradually implemented in the near future. When new programming language support is released, we will update the installation and usage documentation.
+Currently, aiXcoder 2.0 supports Java and Python. Supports for other languages, such as JavaScript, TypeScript, C/C++, PHP and Go, will be gradually implemented in the near future. When new programming language support is released, we will update the installation and usage documentation.
 
-Correspondingly, aiXcoder2.0 Personal Edition currently supports IntelliJ IDEA. Other IDEs or editors' support will be released soon.
+Correspondingly, aiXcoder2.0 Personal Edition currently supports IntelliJ IDEA and PyCharm. Other IDEs or editors' support will be released soon.
 
 The operating systems supported by aiXcoder 2.0 include: Windows, MacOS, and Linux.
 

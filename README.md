@@ -12,21 +12,27 @@ This tutorial has 5 parts:
 
 ### What is aiXcoder?
 
-aiXcoder is an AI-based software development assistant tool. 
+AiXcoder is an AI-based software development assistant tool. 
 
-aiXcoder 2.0 is the first deep-learning-based code completion engine that runs on your local computer. It uses a new powerful deep learning model to improve both accuracy and efficiency. Due to all calculations are performed locally,  aiXcode ensures the security of your code.
+AiXcoder 2.0 is the first deep-learning-based code completion engine that runs on your local computer. It uses a new powerful deep learning model to improve both accuracy and efficiency. Due to all calculations are performed locally,  aiXcode ensures the security of your code.
 
 ![aixcode_2](./res/aixcode_2.jpg)
 
 ### Where to get aiXcoder?
 
-aiXcoder 2.0 is very easy to download and install from the mainstream IDE's Marketplace. 
+AiXcoder 2.0 is very easy to download and install from the mainstream IDE's Marketplace. 
 
-#### IntelliJ for Java
+#### IntelliJ & Java
 
 ![IntelliJ](./res/IntelliJ.png)
 
 Open “Preferences” from the IntelliJ IDEA menu. Go to “Plugins” tab and select “Marketplace”, and then search for “aiXcoder” to install.
+
+#### PyCharm & Python
+
+![pycharm](./res/pycharm_marketplace.jpg)
+
+Open “Preferences” from the PyCharm menu. Go to “Plugins” tab and select “Marketplace”, and then search for “aiXcoder” to install.
 
 ### Usage examples
 
@@ -36,7 +42,7 @@ After downloading the aiXcoder server, the IDE will initialize the aiXcoder code
 
 ![aixcoder_tf](./res/aixcoder_tf.jpg)
 
-aiXcoder 2.0 only gives two suggestions, one for short prediction, the other for long prediction. The short prediction could be a variable name, or some other single "term", that we want to use during the coding process. The long prediction produces a line of code which may construct a piece of code logic.
+AiXcoder 2.0 only gives two suggestions, one for short prediction, the other for long prediction. The short prediction could be a variable name, or some other single "term", that we want to use during the coding process. The long prediction produces a line of code which may construct a piece of code logic.
 
 ### Uninstalling aiXcoder
 
