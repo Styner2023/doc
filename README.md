@@ -1,5 +1,12 @@
 # Quick Start for aiXcoder
 
+[![intellij install](https://img.shields.io/jetbrains/plugin/d/13574-aixcoder-code-completer?color=rgb%28189%2C39%2C117%29&label=Jetbrains%20IntelliJ%20Marketplace)](https://plugins.jetbrains.com/plugin/13574-aixcoder-code-completer)
+[![vscode install](https://img.shields.io/visual-studio-marketplace/d/aixcoder-plugin.aixcoder?color=%230066B8&label=Visual%20Studio%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=aixcoder-plugin.aixcoder)
+[![eclipse install](https://img.shields.io/eclipse-marketplace/dt/aixcoder-ai-code-completer?label=Eclipse%20Marketplace)](https://marketplace.eclipse.org/content/aixcoder-ai-code-completer)
+
+[![chat on Gitter](https://img.shields.io/gitter/room/aixcoder-plugin/community?label=Join%20chat)](https://gitter.im/aixcoder-plugin/community)
+
+
 This repository is a tutorial for beginners. It could help you get familiar with aiXcoder quickly.
 
 This tutorial has 5 parts:
