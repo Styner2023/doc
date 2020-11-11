@@ -13,6 +13,10 @@ This tutorial has 5 parts:
 
 - [What is aiXcoder?](#what-is-aixcoder)
 - [Where to get aiXcoder?](#where-to-get-aixcoder)
+  - [IntelliJ for Java](#intellij-for-java)
+  - [Eclipse for Java](#eclipse-for-java)
+  - [PyCharm for Python](#pycharm-for-python)
+  - [VS Code for CPP, Python, JavaScript, TypeScript](#vs-code-for-cpp--python--javascript--typescript)
 - [Usage examples](#usage-examples)
 - [Uninstalling aiXcoder](#uninstalling-aixcoder)
 - [General questions (FAQ)](./FAQ.md)
@@ -29,17 +33,33 @@ AiXcoder 2.0 is the first deep-learning-based code completion engine that runs o
 
 AiXcoder 2.0 is very easy to download and install from the mainstream IDE's Marketplace. 
 
-#### IntelliJ & Java
+#### IntelliJ for Java
 
-![IntelliJ](./res/IntelliJ.png)
+![IntelliJ](./res/IntelliJ_marketplace.png)
 
-Open “Preferences” from the IntelliJ IDEA menu. Go to “Plugins” tab and select “Marketplace”, and then search for “aiXcoder” to install.
+Open "Preferences" from the IntelliJ IDEA menu. Go to "Plugins" tab and select "Marketplace", and then search for "aiXcoder" to install.
 
-#### PyCharm & Python
+#### Eclipse for Java
+
+![eclipse_1](./res/eclipse_marketplace_1.png)
+
+Click "Help" from the Eclipse menu and select "Eclipse Marketplace". Search "aiXcoder",  Click "Browse for more solutions".
+
+![eclipse_2](./res/eclipse_marketplace_2.png)
+
+On a new page, we will see aiXcoder plugin. Drag to Eclipse workspace, it will be installed.
+
+#### PyCharm for Python
 
 ![pycharm](./res/pycharm_marketplace.jpg)
 
-Open “Preferences” from the PyCharm menu. Go to “Plugins” tab and select “Marketplace”, and then search for “aiXcoder” to install.
+Open "Preferences" from the PyCharm menu. Go to "Plugins" tab and select "Marketplace", and then search for "aiXcoder" to install.
+
+#### VS Code for CPP, Python, JavaScript, TypeScript
+
+![vscode](./res/vscode_extensions.jpg)
+
+Click "Extension" on the left. Search "aiXcoder" and click Install.
 
 ### Usage examples
 
