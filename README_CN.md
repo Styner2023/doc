@@ -54,7 +54,7 @@ Eclipse 会弹出一个新窗口以展示 aiXcoder，将「Install」拖拽到 E
 
 #### VS Code for CPP, Python, JavaScript, TypeScript
 
-![vscode](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/vscode_extensions.jpg)
+![vscode](./res/vscode_extensions.jpg)
 
 在 VS Code 左边框「Extensions」的搜索栏中检索「aiXcoder」，搜索到结果点击安装即可。
 
