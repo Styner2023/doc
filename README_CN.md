@@ -10,6 +10,10 @@
 
 - [什么是 aiXcoder](#什么是-aiXcoder)
 - [如何安装 aiXcoder](#如何安装-aixcoder)
+  - [IntelliJ for Java](#intellij-for-java)
+  - [Eclipse for Java](#eclipse-for-java)
+  - [PyCharm for Python](#pycharm-for-python)
+  - [VS Code for CPP, Python, JavaScript, TypeScript](#vs-code-for-cpp--python--javascript--typescript)
 - [aiXcoder使用案例](#使用案例)
 - [卸载 aiXcoder](#卸载-aixcoder)
 - [常见问题 (FAQ)](https://www.aixcoder.com/#/Support)
@@ -26,17 +30,33 @@ aiXcoder代码补全插件，是aiXcoder系列产品中的一款代表性产品�
 
 AiXcoder 目前在主流 IDE 的市场上都可以下载安装，它主要支持 Java 和 Python，其它语言也都将于近期发布。
 
-#### IntelliJ & Java
+#### IntelliJ for Java
 
-![IntelliJ](./res/IntelliJ.png)
+![IntelliJ](./res/IntelliJ_marketplace.png)
 
 在「IntelliJ IDEA」菜单栏中打开「Preferences」，然后找到「Plugins」选项中的「Marketplace」。在上面搜索「aixcoder」就能找到插件，并直接下载安装。
 
-#### PyCharm & Python
+#### Eclipse for Java
+
+![eclipse_1](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/eclipse_marketplace_1.png)
+
+在 Eclipse 菜单栏中点击「Help」，并选择「Eclipse Marketplace」。Marketplace中我们可以搜索「aiXcoder」，如果没有搜索到，可点击「Browse for more solutions」。
+
+![eclipse_2](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/eclipse_marketplace_2.png)
+
+Eclipse 会弹出一个新窗口以展示 aiXcoder，将「Install」拖拽到 Eclipse 工作目录就能完成安装。
+
+#### PyCharm for Python
 
 ![pycharm](./res/pycharm_marketplace.jpg)
 
 在「PyCharm」菜单栏中打开「Preferences」，然后找到「Plugins」选项中的「Marketplace」。在上面搜索「aixcoder」就能找到插件，并直接下载安装。
+
+#### VS Code for CPP, Python, JavaScript, TypeScript
+
+![vscode](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/vscode_extensions.jpg)
+
+在 VS Code 左边框「Extensions」的搜索栏中检索「aiXcoder」，搜索到结果点击安装即可。
 
 ### 使用案例
 
