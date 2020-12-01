@@ -18,6 +18,8 @@
 - [卸载 aiXcoder](#卸载-aixcoder)
 - [常见问题 (FAQ)](https://www.aixcoder.com/#/Support)
 
+更多信息请查阅我们的 [wiki 页面](https://github.com/aixcoder-plugin/doc/wiki/Home-cn-ZH)。
+
 ### 什么是 aiXcoder
 
 aiXcoder致力于将人工智能技术应用于软件开发领域，帮助开发者快速、高效地完成软件开发任务。

@@ -21,6 +21,8 @@ This tutorial has 5 parts:
 - [Uninstalling aiXcoder](#uninstalling-aixcoder)
 - [General questions (FAQ)](./FAQ.md)
 
+For more information, please read our [wiki pages](https://github.com/aixcoder-plugin/doc/wiki).
+
 ### What is aiXcoder?
 
 AiXcoder is an AI-based software development assistant tool. 
