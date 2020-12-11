@@ -40,11 +40,11 @@ AiXcoder 目前在主流 IDE 的市场上都可以下载安装，它主要支持
 
 #### Eclipse for Java
 
-![eclipse_1](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/eclipse_marketplace_1.png)
+![eclipse_1](./res/eclipse_marketplace_1.png)
 
 在 Eclipse 菜单栏中点击「Help」，并选择「Eclipse Marketplace」。Marketplace中我们可以搜索「aiXcoder」，如果没有搜索到，可点击「Browse for more solutions」。
 
-![eclipse_2](/Users/horatio_jsy/Desktop/aixcoder/github/document/res/eclipse_marketplace_2.png)
+![eclipse_2](./res/eclipse_marketplace_2.png)
 
 Eclipse 会弹出一个新窗口以展示 aiXcoder，将「Install」拖拽到 Eclipse 工作目录就能完成安装。
 
