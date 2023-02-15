@@ -42,7 +42,7 @@
 #### 接口地址
 
 **POST**
-https://api.aixcoder.com/open/v1/predict
+https://api.aixcoder.com/open/api/v1/predict
 
 <br />
 
@@ -151,7 +151,7 @@ continuousPredict: true
 
 ```bash
 
-curl -X POST 'https://api.aixcoder.com/open/v1/predict' \
+curl -X POST 'https://api.aixcoder.com/open/api/v1/predict' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -H 'ext: java(Java)' \
 -H 'uuid: b2a7780b435549f38fa1b9783d824c41' \
@@ -194,7 +194,7 @@ class Solution {
 #### 接口地址
 
 **POST**
-[https://api.aixcoder.com/open/v1/predict_continuous](https://api.aixcoder.com/open/v1/predict_continuous)
+[https://api.aixcoder.com/open/api/v1/predict_continuous](https://api.aixcoder.com/open/api/v1/predict_continuous)
 
 <br />
 
@@ -228,7 +228,7 @@ class Solution {
 
 ```bash
 
-curl --location --request POST 'https://api.aixcoder.com/open/v1/predict_continuous' \
+curl --location --request POST 'https://api.aixcoder.com/open/api/v1/predict_continuous' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 -H 'ext: java(Java)' \
 -H 'uuid: b2a7780b435549f38fa1b9783d824c41' \
@@ -245,7 +245,7 @@ curl --location --request POST 'https://api.aixcoder.com/open/v1/predict_con
 ```bash
 #!/bin/bash 
 # 变量定义
-URL_PREDICT_BASE='https://api.aixcoder.com/open/v1'
+URL_PREDICT_BASE='https://api.aixcoder.com/open/api/v1/'
 USER_UUID='test'
 
 ### 数据预测，由于结果可能很大，所以采用异步的方式，后续需要定期的进行结果获取
@@ -352,7 +352,7 @@ import java.util.Map;
 import java.util.Objects;
 
 public class Main {
-    private static String URL_PREDICT_BASE = "https://api.aixcoder.com/open/v1";
+    private static String URL_PREDICT_BASE = "https://api.aixcoder.com/open/api/v1/";
     private static String MEDIA_CONTENT_TYPE = "application/x-www-form-urlencoded";
 
     public static void main(String[] args) {
@@ -494,7 +494,7 @@ String uuid="test";
 import time
 import requests
 
-URL_PREDICT_BASE = "https://api.aixcoder.com/open/v1"
+URL_PREDICT_BASE = "https://api.aixcoder.com/open/api/v1/"
 MEDIA_CONTENT_TYPE = "application/x-www-form-urlencoded"
 projectRoot = "d:\\Documents\\Code"
 PREFIX = ("import java.io.BufferedReader;\n"
