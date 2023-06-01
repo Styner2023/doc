@@ -355,8 +355,11 @@ public class Main {
     private static String URL_PREDICT_BASE = "https://api.aixcoder.com/open/api/v1/";
     private static String MEDIA_CONTENT_TYPE = "application/x-www-form-urlencoded";
 
+    private static OkHttpClient okHttpClient;
+
     public static void main(String[] args) {
-String uuid="test";
+        okHttpClient = new OkHttpClient();
+        String uuid="test";
         Map<String, Object> valueMap = predict(uuid);
         if (!Boolean.valueOf(valueMap.get("contPredEnded").toString())) {
             String tokens = predict_continuous(uuid, valueMap.get("id").toString());
@@ -450,16 +453,15 @@ String uuid="test";
     }
 
     public static String apiVisit(String url, Map<String, String> headers, Map<String, Object> bodies) {
-        OkHttpClient okHttpClient = new OkHttpClient();
         StringBuilder builder = new StringBuilder();
         bodies.forEach((name, value) -> {
             if (builder.length() != 0) {
                 builder.append('&');
             }
-            builder.append(name);
+            builder.append(URLEncoder.encode(name, "UTF-8"));
             if (value != null) {
                 builder.append("=");
-                builder.append(value);
+                builder.append(URLEncoder.encode(value.toString(), "UTF-8"));
             }
         });
         RequestBody requestBody = RequestBody.create(MediaType.get("application/x-www-form-urlencoded"), builder.toString());
@@ -468,8 +470,7 @@ String uuid="test";
             requestBuilder.addHeader(name, value);
         });
         Request request = requestBuilder.post(requestBody).build();
-        try {
-            Response response = okHttpClient.newCall(request).execute();
+        try (Response response = okHttpClient.newCall(request).execute()) {
             //判断请求是否成功
             if (response.isSuccessful()) {
                 String body = response.body().string();
