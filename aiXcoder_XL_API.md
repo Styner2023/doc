@@ -175,7 +175,8 @@ class Solution {
         String fileName = args[0];
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         String line = br.r' \
---data-urlencode 'laterCode=    }
+--data-urlencode 'laterCode=
+    }
 }' \
 --data-urlencode 'stop_all=false' \
 --data-urlencode 'stop_scopeEnd=true' \
@@ -274,7 +275,8 @@ class Solution {
         String fileName = args[0];
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         String line = br.r' \
---data-urlencode 'laterCode=    }
+--data-urlencode 'laterCode=
+    }
 }' \
 --data-urlencode 'stop_all=false' \
 --data-urlencode 'stop_scopeEnd=true' \
@@ -394,7 +396,7 @@ public class Main {
                 + "        String fileName = args[0];\n"
                 + "        BufferedReader br = new BufferedReader(new FileReader(fileName));\n"
                 + "        String line = br.r");
-        bodies.put("laterCode", "    }\n"
+        bodies.put("laterCode", "\n    }\n"
                 + "}");
         bodies.put("stop_all", false);
         bodies.put("stop_scopeEnd", true);
@@ -506,7 +508,7 @@ PREFIX = ("import java.io.BufferedReader;\n"
           "        String fileName = args[0];\n"
           "        BufferedReader br = new BufferedReader(new FileReader(fileName));\n"
           "        String line = br.r")
-SUFFIX = ("    }\n"
+SUFFIX = ("\n    }\n"
 		  "}")
 
 def predict_init(uuid):
